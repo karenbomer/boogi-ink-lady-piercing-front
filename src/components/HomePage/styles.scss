@@ -169,13 +169,51 @@ h2 {
 p {
   font-size: 1.1rem;
   margin-bottom: 1rem;
-  line-height: 1.5;
-  text-shadow: 0 0 8px black;
+  line-height: 1.7;
 }
 
 .redirection-contact {
-  font-style: italic;
   font-weight: bold;
+  background: #eaeaea;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 1.5rem;
+  width: 25%;
+  margin: 3rem auto;
+  color: black;
+  box-shadow: 0 0 10px 0 rgb(27, 189, 219);
+
+  @media (max-width: 1500px) {
+    width: 30%;
+  }
+
+  @media (max-width: 1000px) {
+    width: 40%;
+  }
+
+  @media (max-width: 600px) {
+    width: 80%;
+  }
+
+  @media (max-width: 400px) {
+    width: 100%;
+  }
+
+  a {
+    color: black;
+  }
+}
+
+.redirection-contact:hover {
+  background: black;
+  color: white;
+  box-shadow: 0 0 10px 0 rgb(240, 0, 180);
+  scale: 1.1;
+  transition: all 0.5s ease;
+
+  a {
+    color: white;
+  }
 }
 
 
@@ -226,7 +264,7 @@ p {
 
   .boogi-ink-logo-fonts {
     font-family: 'Vegan Style Personal Use';
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: rgb(27, 189, 219);
     text-shadow: 2px 1px 1px black;
 
@@ -254,7 +292,7 @@ p {
 
   .lady-piercing-logo-fonts {
     font-family: 'Stayola';
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: rgb(240, 0, 180);
     text-shadow: 2px 1px 1px black;
 
