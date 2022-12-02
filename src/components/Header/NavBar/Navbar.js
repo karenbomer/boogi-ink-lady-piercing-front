@@ -41,7 +41,7 @@ const Navbar = () => {
 
                     <div className='link-salons'>
                     <li className='nav-item'>
-                        <p className='le-salon' onClick={closeMenu}>Le salon</p>
+                        <a href='/' className='le-salon' onClick={closeMenu}>Le salon</a>
                     </li>
                         <div className="dropdown-content">         
                          <ul>

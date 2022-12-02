@@ -69,11 +69,12 @@ a {
     .le-salon {
         font-size: 1em;
         margin-top: -3px;
+        cursor: pointer;
     }
 
     .dropdown-content {
         display: none;
-        background-color: black;
+        background-color: rgb(17, 17, 17);
         position: absolute;
         right: -8rem;
         width: 350px;
